@@ -16,6 +16,6 @@
 		}
 	},
 	"rewards":{
-		"function":"advancementium:kill_dragon"
+		"function":"advancementium:advancements/kill_dragon"
 	}
 }
