@@ -1,4 +1,6 @@
 {
+    "advancements.advancementium.adventure.winter_wonderland.title": "Winter Wonderland",
+    "advancements.advancementium.adventure.winter_wonderland.desc": "Build an snow golen in icy spikes biome",
 
     "advancements.advancementium.exploring.root.title": "Exploring",
     "advancements.advancementium.exploring.root.desc": "Let's start exploring this strange world",
@@ -33,6 +35,9 @@
 
     "advancements.advancementium.combat.one_foot_in_the_grave.title": "One Foot in the Grave",
     "advancements.advancementium.combat.one_foot_in_the_grave.desc": "Defeat a mob when your health is below one heart",
+
+    "advancements.advancementium.combat.kill_warden.title": "I am the king of shadows",
+    "advancements.advancementium.combat.kill_warden.desc": "Defeat the Warden",
 
     "advancements.advancementium.story.a_cut_above.title": "A Cut Above",
     "advancements.advancementium.story.a_cut_above.desc": "Use Shears to obtain wool from a sheep",
