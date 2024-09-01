@@ -29,5 +29,8 @@
 		[
 			"warden_kill"
 		]
-	]
+	],
+    "rewards":{
+        "function":"advancementium:messages/advancements/combat/warden_kill"
+    }
 }
