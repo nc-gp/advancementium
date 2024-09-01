@@ -1,0 +1,36 @@
+{
+	"display":{
+		"description":{
+			"translate":"advancements.adventure.voluntary_exile.description"
+		},
+		"icon":{
+			"count":1,
+			"id":"minecraft:ominous_bottle"
+		},
+		"title":{
+			"translate":"advancements.adventure.voluntary_exile.title"
+		},
+		"announce_to_chat":false
+	},
+	"parent":"advancementium:combat/root",
+	"criteria":{
+		"bad_omen":{
+			"conditions":{
+				"effects":{
+					"minecraft:bad_omen":{
+						
+					}
+				}
+			},
+			"trigger":"minecraft:effects_changed"
+		}
+	},
+	"requirements":[
+		[
+			"bad_omen"
+		]
+	],
+	"rewards":{
+		"function":"advancementium:messages/advancements/combat/voluntary_exile"
+	}
+}

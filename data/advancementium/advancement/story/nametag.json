@@ -1,0 +1,30 @@
+{
+	"display":{
+		"icon":{
+			"id":"minecraft:name_tag"
+		},
+		"title":{
+			"translate":"advancements.advancementium.story.nametag.title"
+		},
+		"description":{
+			"translate":"advancements.advancementium.story.nametag.desc"
+		},
+		"frame":"task",
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"parent":"advancementium:story/heavy_metal",
+	"criteria":{
+		"nametag":{
+			"trigger":"minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"items":"minecraft:name_tag"
+					}
+				]
+			}
+		}
+	}
+}

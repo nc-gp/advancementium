@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "p_advancementium",
+    "version": "1.0.alpha-1.21",
+    "name": "Advancementium",
+    "description": "Connects the minecraft advancements in the right way.",
+    "authors": [
+        "ncgp_"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/advancementium",
+        "sources": "https://github.com/nc-gp/advancementium",
+        "issues": "https://github.com/nc-gp/advancementium/issues"
+    },
+    "license": "MIT",
+    "icon": "advancementium.png",
+    "environment": "*",
+    "depends": {
+        "fabricloader": "*",
+        "fabric": "*",
+        "minecraft": ">=1.21",
+        "java": ">=21"
+    },
+    "contributors": []
+}

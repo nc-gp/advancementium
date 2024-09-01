@@ -1,0 +1,78 @@
+{
+
+    "advancements.advancementium.exploring.root.title": "Exploring",
+    "advancements.advancementium.exploring.root.desc": "Let's start exploring this strange world",
+
+    "advancements.advancementium.exploring.caves_cliffs.title": "Caves & Cliffs",
+    "advancements.advancementium.exploring.caves_cliffs.desc": "Discover every mountain biome",
+
+    "advancements.advancementium.exploring.rock_bottom.title": "Rock Bottom",
+    "advancements.advancementium.exploring.rock_bottom.desc.1": "Enter the caves' ",
+    "advancements.advancementium.exploring.rock_bottom.desc.2": " layer",
+
+    "advancements.advancementium.exploring.city_of_shadows.title": "City of Shadows",
+    "advancements.advancementium.exploring.city_of_shadows.desc": "Find the Ancient City, where Sculk and the Warden reside",
+
+    "advancements.advancementium.exploring.oceanic_abyss.title": "Oceanic Abyss",
+    "advancements.advancementium.exploring.oceanic_abyss.desc": "Discover every ocean biome",
+
+    "advancements.advancementium.exploring.open_water.title": "Open Waters",
+    "advancements.advancementium.exploring.open_water.desc": "I can swim?!?",
+
+    "advancements.advancementium.combat.message": "%s has sharpened their skills with %s%s%s",
+    "advancements.advancementium.combat.message.raised": "%s has leveled up by completing %s%s%s",
+
+    "advancements.advancementium.combat.root.title": "Battle Ready",
+    "advancements.advancementium.combat.root.desc": "Gear up with a sword and fight! I mean... learn how to use them",
+
+    "advancements.advancementium.combat.first_blood.title": "First Blood",
+    "advancements.advancementium.combat.first_blood.desc": "Defeat your first hostile mob",
+
+    "advancements.advancementium.combat.a_stick.title": "A stick?",
+    "advancements.advancementium.combat.a_stick.desc": "Connect a stick and a... string to obtain a BOW!",
+
+    "advancements.advancementium.combat.one_foot_in_the_grave.title": "One Foot in the Grave",
+    "advancements.advancementium.combat.one_foot_in_the_grave.desc": "Defeat a mob when your health is below one heart",
+
+    "advancements.advancementium.story.a_cut_above.title": "A Cut Above",
+    "advancements.advancementium.story.a_cut_above.desc": "Use Shears to obtain wool from a sheep",
+
+    "advancements.advancementium.story.golden_glory.title": "Golden Glory",
+    "advancements.advancementium.story.golden_glory.desc": "Obtain an Enchanted Golden Apple",
+
+    "advancements.advancementium.story.heavy_metal.title": "Heavy Metal",
+    "advancements.advancementium.story.heavy_metal.desc": "Obtain an Anvil",
+
+    "advancements.advancementium.story.hot_and_ready.title": "Hot and Ready",
+    "advancements.advancementium.story.hot_and_ready.desc": "Obtain a Blast Furnace and Smoker",
+
+    "advancements.advancementium.story.marker_of_the_markers.title": "Marker of the Markers",
+    "advancements.advancementium.story.marker_of_the_markers.desc": "Obtain the pattern",
+
+    "advancements.advancementium.story.nametag.title": "What's in a Name?",
+    "advancements.advancementium.story.nametag.desc": "Obtain a name tag, a special item that lets you assign a custom name to your pets or items",
+
+    "advancements.advancementium.story.self_sufficient.title": "Self-Sufficient",
+    "advancements.advancementium.story.self_sufficient.desc": "Obtain or make an item that has the Mending enchantment",
+
+    "advancements.advancementium.story.stone_cold_crafting.title": "Stone Cold Crafting",
+    "advancements.advancementium.story.stone_cold_crafting.desc": "Forge a furnace by placing eight stone blocks",
+
+    "advancements.advancementium.story.master_of_realms.title": "Master Of Realms",
+    "advancements.advancementium.story.master_of_realms.desc": "Achieve real end of the game, by completing Minecraft in 100%",
+
+    "advancements.advancementium.story.witherstorm.title": "Witherstorm",
+    "advancements.advancementium.story.witherstorm.desc": "I mean... what?",
+
+    "advancements.advancementium.end.infinity_of_what.title": "Infinity... of what?",
+    "advancements.advancementium.end.infinity_of_what.desc": "Take the ultimate leap and fall into the endless void of the End",
+
+    "advancements.advancementium.end.sky_warrior.title": "Sky Warrior",
+    "advancements.advancementium.end.sky_warrior.desc": "Use your Elytra to fly and take down an hostile mob without ever setting foot on the ground",
+    
+    "advancements.advancementium.end.beyond_the_clouds.title": "Beyond the Clouds",
+    "advancements.advancementium.end.beyond_the_clouds.desc": "Use your elytra to soar past the Overworld build restriction",
+
+    "advancements.minecraft.story.crafting.title": "Workbench",
+    "advancements.minecraft.story.crafting.desc": "Obtain a crafting table!"
+}

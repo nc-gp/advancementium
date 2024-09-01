@@ -1,0 +1,40 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"category":"misc",
+	"pattern":[
+		"bbb",
+		"cac",
+		" c "
+	],
+	"key":{
+		"a":{
+			"item":"minecraft:command_block"
+		},
+		"b":{
+			"item":"minecraft:wither_skeleton_skull"
+		},
+		"c":{
+			"item":"minecraft:soul_sand"
+		}
+	},
+	"result":{
+		"id":"minecraft:wither_spawn_egg",
+		"count":1,
+		"components":{
+			"minecraft:entity_data":{
+				"id":"minecraft:fireball",
+                "Motion":[0,-10,0],
+				"ExplosionPower":50,
+				"HasBeenShot":true
+			},
+			"minecraft:item_name":"{\"text\":\"Witherstorm Spawn Egg\",\"italic\":false,\"color\":\"aqua\"}",
+            "enchantments":{
+                "levels":{
+                    "infinity":1
+                },
+                "show_in_tooltip":false
+            }
+		}
+	},
+	"show_notification":true
+}

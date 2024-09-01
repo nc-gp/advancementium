@@ -1,0 +1,35 @@
+{
+	"display":{
+		"icon":{
+			"id":"minecraft:bow"
+		},
+		"title":{
+			"translate":"advancements.advancementium.combat.a_stick.title"
+		},
+		"description":{
+			"translate":"advancements.advancementium.combat.a_stick.desc"
+		},
+		"announce_to_chat":false
+	},
+	"parent":"advancementium:combat/root",
+	"criteria":{
+		"bow_craft":{
+			"trigger":"minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"items":"minecraft:bow"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+			"bow_craft"
+		]
+	],
+	"rewards":{
+		"function":"advancementium:messages/advancements/combat/a_stick"
+	}
+}

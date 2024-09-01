@@ -1,0 +1,4 @@
+.git/
+build/
+pack.py
+info.txt

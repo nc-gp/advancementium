@@ -1,0 +1,37 @@
+{
+	"display":{
+		"icon":{
+			"id":"minecraft:sand"
+		},
+		"title":{
+			"translate":"advancements.advancementium.exploring.open_water.title"
+		},
+		"description":{
+			"translate":"advancements.advancementium.exploring.open_water.desc"
+		},
+		"frame":"task",
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"parent":"minecraft:adventure/adventuring_time",
+	"criteria":{
+		"water":{
+			"trigger":"minecraft:location",
+			"conditions":{
+				"player":{
+					"location":{
+						"fluid":{
+							"fluids":"#minecraft:water"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"water"
+		]
+	]
+}

@@ -1,0 +1,29 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "com.modrinth",
+        "id": "p_advancementium",
+        "version": "1.0.alpha-1.21",
+        "metadata": {
+            "name": "Advancementium",
+            "description": "Connects the minecraft advancements in the right way.",
+            "contributors": {
+                "ncgp_": "Owner"
+            },
+            "contact": {
+                "homepage": "https://modrinth.com/advancementium",
+                "sources": "https://github.com/nc-gp/advancementium",
+                "issues": "https://github.com/nc-gp/advancementium/issues"
+            },
+            "icon": "advancementium.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "quilt_resource_loader",
+                "versions": "*",
+                "unless": "fabric-resource-loader-v0"
+            }
+        ]
+    }
+}

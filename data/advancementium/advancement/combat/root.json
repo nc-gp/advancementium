@@ -1,0 +1,37 @@
+{
+	"display":{
+		"icon":{
+			"id":"minecraft:iron_sword"
+		},
+		"title":{
+			"translate":"advancements.advancementium.combat.root.title"
+		},
+		"description":{
+			"translate":"advancements.advancementium.combat.root.desc"
+		},
+		"background":"advancementium:textures/gui/advancements/backgrounds/combat.png",
+		"show_toast":true,
+		"announce_to_chat":false
+	},
+	"criteria":{
+		"sword":{
+			"trigger":"minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"items":"#minecraft:swords",
+						"count":1
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+			"sword"
+		]
+	],
+  	"rewards": {
+    	"function": "advancementium:messages/advancements/combat/battle_ready"
+  	}
+}

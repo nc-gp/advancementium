@@ -1,0 +1,36 @@
+{
+	"parent":"minecraft:story/root",
+	"criteria":{
+		"crafting_table":{
+			"conditions":{
+				"items":[
+					{
+						"items":"minecraft:crafting_table"
+					}
+				]
+			},
+			"trigger":"minecraft:inventory_changed"
+		}
+	},
+	"display":{
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png",
+		"description":{
+			"translate":"advancements.minecraft.story.crafting.desc"
+		},
+		"icon":{
+			"count":1,
+			"id":"minecraft:crafting_table"
+		},
+		"title":{
+			"translate":"advancements.minecraft.story.crafting.title"
+		}
+	},
+	"requirements":[
+		[
+			"crafting_table"
+		]
+	],
+	"rewards":{
+		"function":"advancementium:count/1"		
+	}
+}

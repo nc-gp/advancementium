@@ -1,0 +1,30 @@
+{
+	"display":{
+		"icon":{
+			"id":"minecraft:anvil"
+		},
+		"title":{
+			"translate":"advancements.advancementium.story.heavy_metal.title"
+		},
+		"description":{
+			"translate":"advancements.advancementium.story.heavy_metal.desc"
+		},
+		"frame":"goal",
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"parent":"minecraft:story/smelt_iron",
+	"criteria":{
+		"requirement":{
+			"trigger":"minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"items":"#minecraft:anvil"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"display":{
+		"icon":{
+			"id":"minecraft:wooden_pickaxe",
+			"count":1
+		},
+		"title":{
+			"translate":"advancements.story.mine_stone.title"
+		},
+		"description":{
+			"translate":"advancements.story.mine_stone.description"
+		}
+	},
+	"parent":"advancementium:story/crafting",
+	"criteria":{
+		"get_stone":{
+			"trigger":"minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"items":"#minecraft:stone_tool_materials"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+			"get_stone"
+		]
+	],
+	"rewards":{
+		"function":"advancementium:count/1"		
+	}
+}

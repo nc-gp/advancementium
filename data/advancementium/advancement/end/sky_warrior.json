@@ -1,0 +1,52 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:elytra",
+        "components": {
+          "minecraft:enchantments": {}
+        }
+      },
+      "title": {
+        "translate": "advancements.advancementium.end.sky_warrior.title"
+      },
+      "description": [
+      {
+        "translate": "advancements.advancementium.end.sky_warrior.desc"
+      }],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:end/elytra",
+    "criteria": {
+        "elytra": {
+          "trigger": "minecraft:player_killed_entity",
+          "conditions": {
+            "player": {
+              "flags": {
+                "is_flying": true
+              }
+            },
+            "killing_blow": {
+              "source_entity": {
+                "equipment": {
+                  "chest": {
+                    "items": "minecraft:elytra"
+                  }
+                }
+              }
+            }
+          }
+        }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ],
+    "rewards": {
+      "experience": 50
+    }
+  }
+  

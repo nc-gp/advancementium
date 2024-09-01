@@ -1,0 +1,1 @@
+scoreboard players add @s pa_adv_story_count 1

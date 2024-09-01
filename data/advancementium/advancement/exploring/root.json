@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:leather_boots"
+      },
+      "title": {
+        "translate": "advancements.advancementium.exploring.root.title"
+      },
+      "description": {
+        "translate": "advancements.advancementium.exploring.root.desc"
+      },
+      "background": "advancementium:textures/gui/advancements/backgrounds/exploring.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "location": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

@@ -1,0 +1,32 @@
+{
+	"display":{
+		"icon":{
+			"id":"minecraft:deepslate_brick_wall"
+		},
+		"title":{
+			"translate":"advancements.advancementium.exploring.city_of_shadows.title"
+		},
+		"description":{
+			"translate":"advancements.advancementium.exploring.city_of_shadows.desc"
+		},
+		"frame":"task"
+	},
+	"parent":"advancementium:exploring/rock_bottom",
+	"criteria":{
+		"ancient_city":{
+			"trigger":"minecraft:location",
+			"conditions":{
+				"player":{
+					"location":{
+						"structures":"minecraft:ancient_city"
+					}
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"ancient_city"
+		]
+	]
+}

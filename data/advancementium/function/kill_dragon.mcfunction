@@ -1,0 +1,1 @@
+execute as @a[gamemode=!spectator,distance=..128,predicate=advancementium:location/the_end] run advancement grant @s only minecraft:end/kill_dragon

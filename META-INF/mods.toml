@@ -1,0 +1,20 @@
+modLoader = "javafml"
+loaderVersion = "*"
+license = "MIT"
+[[mods]]
+modId = "p_advancementium"
+version = "1.0.alpha-1.21"
+displayName = "Advancementium"
+displayURL = "https://modrinth.com/advancementium"
+authors = "ncgp_"
+description = "Connects the minecraft advancements in the right way."
+logoFile = "advancementium.png"
+
+[dependencies]
+[[dependencies.p_advancementium]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "AFTER"
+side = "BOTH"
+

@@ -1,0 +1,34 @@
+{
+	"parent":"minecraft:adventure/two_birds_one_arrow",
+	"criteria":{
+		"arbalistic":{
+			"conditions":{
+				"unique_entity_types":5
+			},
+			"trigger":"minecraft:killed_by_crossbow"
+		}
+	},
+	"display":{
+		"description":{
+			"translate":"advancements.adventure.arbalistic.description"
+		},
+		"frame":"challenge",
+		"icon":{
+			"count":1,
+			"id":"minecraft:crossbow"
+		},
+		"title":{
+			"translate":"advancements.adventure.arbalistic.title"
+		},
+        "announce_to_chat":false
+	},
+	"requirements":[
+		[
+			"arbalistic"
+		]
+	],
+	"rewards":{
+		"experience":85,
+		"function":"advancementium:messages/advancements/combat/arbalistic"
+	}
+}

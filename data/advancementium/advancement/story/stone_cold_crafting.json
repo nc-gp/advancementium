@@ -1,0 +1,28 @@
+{
+	"display":{
+		"icon":{
+			"id":"minecraft:furnace"
+		},
+		"title":{
+			"translate":"advancements.advancementium.story.stone_cold_crafting.title"
+		},
+		"description":{
+			"translate":"advancements.advancementium.story.stone_cold_crafting.desc"
+		},
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"parent":"minecraft:story/mine_stone",
+	"criteria":{
+		"requirement":{
+			"trigger":"minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"items":"minecraft:furnace"
+					}
+				]
+			}
+		}
+	}
+}
