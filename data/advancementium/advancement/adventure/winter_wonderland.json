@@ -12,7 +12,7 @@
 		},
 		"frame":"goal"
 	},
-	"parent":"minecraft:adventure/trade",
+	"parent":"minecraft:adventure/summon_iron_golem",
 	"criteria":{
 		"summoned_golem":{
 			"trigger":"minecraft:summoned_entity",
